@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="EN" lang="EN">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Reservation Hotel Room </title>
+</head>
+<body>
+     <h1 style="text-align: left;">Reservation Hotel Room</h1>
+        <form action="" method="post" enctype="multipart/form-data">
+            <fieldset style="width: 25%;">
+             <legend><p>Personal Data</p></legend>
+            <table cellspacing="4" cellpadding="4" style="border-collapse: collapse; width: 60%;">
+                <tr>
+                    <td>
+                        <label for="name">1. Name</label><br />
+                        <input type="text" id="name" name="name" size="30" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="gender">2. Gender</label><br />
+                        <input type="text" id="gender" name="gender" size="30" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="email">3. Email</label><br />
+                        <input type="email" id="email" name="email" size="30" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="telp">4. Telp Number</label><br />
+                        <input type="number" id="telp" name="telp" size="30" /><br />
+                    </td>
+                </tr>
+            </table>
+            </fieldset>
+
+            <p1>Reservation Room Form</p1><br /><br />
+
+            <tr>
+                <td>
+                    <label for="rsvN">1. Reservation Name</label><br />
+                    <input type="text" id="rsvN" name="rsvN" size="30" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="date"><br \>2. Booking Date</label><br />
+                    <input type="text" id="date" name="date" size="30" />
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="RoomT"><br \>3. Room Type</label><br /></td>
+                    <td>
+                        <select id="RoomT" name="RoomT">
+                            <option>Superior</option>
+                            <option>Deluxe</option>
+                            <option>Family Room</option>
+                    </select>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td><label for="BedT"><br \>4. Bed Type</label><br /></td>
+                    <td>
+                        <select id="BedT" name="BedT">
+                            <option>Single Bed</option>
+                            <option>Double Bed</option>
+                            <option>Twin Bed</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><strong><br />Breakfast</strong></td>
+                    <td>
+                        <label for="with"><input type="radio" id="with" name="w" value="With" />With</label>
+                        <label for="out"><input type="radio" id="out" name="wo" value="Without" />Without</label>
+                    </td>
+            </tr>
+
+            <fieldset style="width: 25%;">
+                <legend><h1>Payment</h1></legend>
+                <table cellspacing="4" cellpadding="4" style="border-collapse: collapse; width: 60%;">
+                    <tr>
+                        <td>
+                            <label for="checkInDate">1. Check in Date</label><br />
+                            <input type="text" id="checkInDate" name="checkInDate" size="30" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="checkOutDate">1. Check out Date</label><br />
+                            <input type="text" id="checkOutDate" name="checkOutDate" size="30" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="payment">3. Payment Method</label><br />
+                            <select id="payment" name="payment">
+                                <option>Cash</option>
+                                <option>Debit</option>
+                                <option>Q-RIS</option>
+                                </select>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <tr>
+                <br />
+                <td colspan="2" style="text-align: center;">
+                    <input type="submit" id="submit" name="submit" value="Submit" />
+                </td>
+            </tr>
+
+        </form>
+</body>
